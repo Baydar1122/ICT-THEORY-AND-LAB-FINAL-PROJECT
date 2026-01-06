@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Order Form</title>
+<link rel="stylesheet" href="../css/style.css">
+<style>
+form{
+    background:white;
+    width:300px;
+    margin:40px auto;
+    padding:20px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>Place Your Order</h1>
+</header>
+
+<nav>
+    <a href="../index.html">Home</a>
+    <a href="table.html">Products</a>
+    <a href="about.html">About</a>
+    <a href="form.html">Order</a>
+</nav>
+
+<form>
+    <label>Name:</label><br>
+    <input type="text" required><br><br>
+
+    <label>Email:</label><br>
+    <input type="email" required><br><br>
+
+    <label>Select Shoe Type:</label><br>
+    <select>
+        <option>Running</option>
+        <option>Casual</option>
+        <option>Formal</option>
+    </select><br><br>
+
+    <label>Payment Method:</label><br>
+    <input type="radio" name="pay"> Cash on Delivery
+    <input type="radio" name="pay"> Online Payment
+    <br><br>
+
+    <button type="submit">Submit</button>
+</form>
+
+</body>
+</html>
